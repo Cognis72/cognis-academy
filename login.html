@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>เข้าสู่ระบบ - Cognis Academy | แพลตฟอร์มเรียนเขียนโปรแกรมออนไลน์</title>
+    <meta name="title" content="เข้าสู่ระบบ - Cognis Academy | แพลตฟอร์มเรียนเขียนโปรแกรมออนไลน์">
+    <meta name="description" content="เข้าสู่ระบบ Cognis Academy เพื่อเข้าถึงคอร์สเขียนโปรแกรมออนไลน์ วิดีโอบทเรียน และเนื้อหาการเรียนรู้ที่ครบครัน">
+    <meta name="keywords" content="เข้าสู่ระบบ, login, Cognis Academy, เรียนโปรแกรมมิ่ง, คอร์สออนไลน์">
+    <meta name="author" content="Cognis Academy">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cognisacademy.com/login.html">
+    <meta property="og:title" content="เข้าสู่ระบบ - Cognis Academy">
+    <meta property="og:description" content="เข้าสู่ระบบเพื่อเรียนเขียนโปรแกรมกับ Cognis Academy">
+    <meta property="og:site_name" content="Cognis Academy">
+    <meta property="og:locale" content="th_TH">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://cognisacademy.com/login.html">
+    <meta property="twitter:title" content="เข้าสู่ระบบ - Cognis Academy">
+    <meta property="twitter:description" content="เข้าสู่ระบบเพื่อเรียนเขียนโปรแกรมกับ Cognis Academy">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://cognisacademy.com/login.html">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation will be loaded by nav.js -->
+
+    <!-- Main Content -->
+    <main class="login-main">
+        <div class="login-container">
+            <div class="login-card">
+                <div class="login-header">
+                    <h2>เข้าสู่ระบบ</h2>
+                    <p>เพื่อเข้าถึงคอร์สเรียนและวิดีโอบทเรียน</p>
+                </div>
+                
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="username">ชื่อผู้ใช้</label>
+                        <input type="text" id="username" name="username" required autocomplete="username" placeholder="กรอกชื่อผู้ใช้">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">รหัสผ่าน</label>
+                        <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="กรอกรหัสผ่าน">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary login-button">เข้าสู่ระบบ</button>
+                    
+                    <div class="login-demo-info">
+                        <h4>ข้อมูลสำหรับทดสอบ:</h4>
+                        <p><strong>ชื่อผู้ใช้:</strong> admin</p>
+                        <p><strong>รหัสผ่าน:</strong> 1234</p>
+                    </div>
+                </form>
+                
+                <div id="errorMessage" class="error-message" style="display: none;"></div>
+                
+                <div class="login-footer">
+                    <p>ยังไม่มีบัญชี? <a href="#" class="register-link">สมัครสมาชิก</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Cognis Academy</h3>
+                    <p>แพลตฟอร์มเรียนเขียนโปรแกรมออนไลน์ที่ดีที่สุดในประเทศไทย</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>ลิงก์สำคัญ</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">หน้าแรก</a></li>
+                        <li><a href="subscription.html">แพ็คเกจคอร์ส</a></li>
+                        <li><a href="index.html#about">เกี่ยวกับเรา</a></li>
+                        <li><a href="index.html#contact">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cognis Academy. สงวนลิขสิทธิ์ทั้งหมด</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
